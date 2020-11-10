@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0 maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Jquery datatable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css" />
+    <!-- Jquery datatable -->
+    <link href="Content/Custom/style.css" rel="stylesheet" />
+    <link href="Content/Custom/site.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    <!-- font awesome icon -->
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!-- font awesome icon -->
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <!-- owl carousel -->
+
+    <style>
+        [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+            position: relative !important;
+            left: 0px !important;
+            opacity: 1 !important;
+        }
+    </style>
+</head>
+<body>
+    <section class="profile">
+        <div class="container profile_page">
+            <div class="profile_page_card padding-xy shadow border-radius background-white">
+                <div class="profile_page_card_header background-offwhite border-radius text-center padding-xy mb-3 color-red">
+                    <h2>Profile</h2>
+                    <p>User Details Information</p>
+                </div>
+                <div class="row color-black">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                      
+                            <img src="Images/user.png" alt="profile-pic" />
+                   
+                      
+    
+                        <h6 class="mt-3">
+                            <b>
+                                Siam<br />11/10/2020<br />Blood Group: O-
+                            </b>
+                        </h6>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+                        <h5>
+                            <b>
+                                <i class="far fa-user"></i>&nbsp;Personal Information&nbsp;
+                              
+                                    <a href="/Donor/Edit/@Model.BloodDonorHeaderId" class="badge badge-danger">Edit</a>
+                                
+                            </b>
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>User Name: </b>Siam Ahmed</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Email: </b>siam@gmail.com</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y">
+                                    <b>Mobile Number: </b>019232382929
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y">
+                                    <b>Mobile Number(Optional): </b>019232382929
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Blood Group: </b>O-</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Gender: </b>Male</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Date Of Birth: </b>21/02/2002</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Occupation: </b>Web Developer</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Division: </b>Dhaka</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>District: </b>Narayanganj</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Thana/Upazilla: </b>Bandar</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Address: </b>Nabiganj,Bandar,Narayanganj</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Social: </b>www.facebook.com</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="padding-half-y"><b>Last Donated: </b>09/10/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <a class="btn btn-danger float-left" href="index.html">Back to Home</a>
+                <div class="clearfix"></div>
+               
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery.validate.min.js"></script>
+    <script src="Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="Scripts/Custom/counter.js"></script>
+    <script src="Scripts/Custom/back-to-top.js"></script>
+    <script src="Scripts/Custom/map.js"></script>
+    <script src="Scripts/Custom/google.map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=SoftifyBD&callback=myMap"></script>
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.semanticui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.2.6/dist/sweetalert2.all.min.js"></script>
+
+    <script src="Scripts/Custom/owl-testimonial.js"></script>
+  
+</body>
+</html>
